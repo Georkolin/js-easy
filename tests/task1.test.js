@@ -3,7 +3,7 @@ const replaceVowels = require('../tasks/task1');
 test('Replaces vowels with asterisks', () => {
   expect(replaceVowels('hello')).toBe('h*ll*');
   expect(replaceVowels('javascript')).toBe('j*v*scr*pt');
-  expect(replaceVowels('aeiouy')).toBe('*****');
+  expect(replaceVowels('aeiouy')).toBe('******');
   expect(replaceVowels('')).toBe('');
 });
 
