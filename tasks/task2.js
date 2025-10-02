@@ -13,7 +13,7 @@ function reverseWithoutNumbers(str) {
   }
   return reversed;
 }
-
+//sdvsdds
 console.log(reverseWithoutNumbers("hello123world456"));
 console.log(reverseWithoutNumbers("abc123xyz"));
 
