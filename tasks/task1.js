@@ -9,6 +9,7 @@ function replaceVowels(str) {
     } else {
       result += char;
     }
+    //safasfsa
   }
 
   return result;
